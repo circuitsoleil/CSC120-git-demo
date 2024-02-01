@@ -1,6 +1,11 @@
 def main():
-  print("Hello, Jordan!")
-  x = 3 + 5
-  print("3 + 5 = ", x)
+  print("Hello, Mary!")
+  x = 3 + 6
+  print("3 + 6 = ", x)
   
+  question = input("Would you like to do some math? y/n ")
+  if question == "y": 
+    print("Okay!")
+  if question == "n":
+    print("Goodbye")
 main()
